@@ -1,0 +1,17 @@
+﻿Champ,Choix,ID SF,Type de données
+Nom,,WhoId,"Référence(Contact,Piste)"
+Sous-type de tâche,,TaskSubtype,Liste de sélection
+Statut,"Completed, Open",Status,Liste de sélection
+Date/ heure de réalisation,,CompletedDateTime,Date/heure
+Objet,"Audit Qualité Client, Autre, Démarrage dév. commercial, Envoi devis, Qualification besoin",Subject,Liste de sélection
+Attribué à,,OwnerId,"Référence(Utilisateur,Calendrier,Groupe)"
+Téléphone contact,,Phone,Téléphone
+Commentaires,,Description,Zone de texte longue(32000)
+Type d’appel,,CallType,Type de sélection
+Echéance,,ActivityDate,Date
+"Associé à ",,WhatId,"Référence(Contrat,Commande,Campagne,Compte,Opportunité,Produit,Actif,Requête,Solution,Participant à l'engagement,Interaction d'engagement,Rubrique d'engagement,Devis,Ressource de service,Autorisation,Contrat de service,Élément de ligne du contrat,Emplacement,Relation d'actif,Formulaire marketing,E-mail de liste,Lien marketing,Page de destination,Requête de contact,Image,Consentement d'abonnement aux communications,Employé,Consentement de partie,Heures ouvrables pendant les vacances,Exception de traitement,Matrice de décision,Decision Matrix Version,Calculation Procedure,Calculation Procedure Version,Alerte d'enregistrement,Ensemble d'expressions,Version de l'ensemble d'expressions,Web Cart Document,Cliché instantané du remboursement,Marchés Publics,Agreement Configuration,Liste d’envoi groupé DocuSign,Statut de l’envoi groupé DocuSign,Mappage d’un paramètre personnalisé DocuSign,Modèle d’enveloppe DocuSign,Statut DocuSign,Modèle DocuSign Gen,Journal DocuSign,Statut du destinataire DocuSign)"
+Priorité,"High, Normal",Priority,Liste de sélection
+Définition du rappel,,IsReminderSet,Case à cocher
+Créer une série récurrente de tâches,,IsRecurrence,Case à cocher
+Créé par,,CreatedById,Référence(Utilisateur)
+Dernière modification par,,LastModifiedById,Référence(Utilisateur)

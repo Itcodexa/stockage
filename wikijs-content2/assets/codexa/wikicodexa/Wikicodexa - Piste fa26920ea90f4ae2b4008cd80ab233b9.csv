@@ -1,0 +1,39 @@
+﻿Champ,ID SF,Description,Type de données,Choix
+Société,Company,,Texte(255),
+Type,Type__c,,Liste de sélection,"Association et fédération, Institution publique, Société privée"
+Nombre d’employés,NumberOfEmployees,,"Numéro(8, 0)",
+Statut de la piste,Status,,Liste de sélection,"Marketing, Oui, Partenaire, Relance, Service des Assemblées, Suspect"
+Nom complet,Name,,Nom,
+Téléphone,Phone,,Téléphone,
+Téléphone mobile,MobilePhone,,Téléphone,
+Autre téléphone,OtherPhone__c,,Téléphone,
+Adresse e-mail,Email,,E-mail,
+Fonction du prospect,FonctionProspect__c,,Liste de sélection,"ADirecteur(trice) Financier(ère), Acheteur(teuse), Ancien(ne) secrétaire, Assistant(e) RH, Assistant(e) de direction, Autres, Chargé(e) de communication, Chargé(e) de facturation, Chargé(e) de mission, Chargé(e) de mission Dialogue Social, Chef(fe) de service, DRH, DRH groupe, DRS groupe, Directeur(trice), Directeur(trice) Financier(ère), Directeur(trice) Général(e), Directeur(trice) Général(e) des Services, Directeur(trice) Juridique, Directeur(trice) Régional(e), Directeur(trice) adjoint(e), Directeur(trice) de la Communication, Directeur(trice) des relations sociales, Délégué(e) syndical, Elu(e), Gestionnaire RH, Resp. Dialogue Social, Resp. Juridique, Resp. administratif, Resp. communication, Resp. de Pôle, Secrétaire CSE, Secrétaire CSSCT, Secrétaire adjoint(e) CSE, Secrétaire adjoint(e) CSEC, Secrétaire adjoint(e) CSSCT, Secrétaire admin. CSE, Secrétaire de CSEC, Secrétaire de direction, Secrétaire du CEE, Secrétaire du CG, Secrétaire général(e), Trésorier(ère), Trésorier(ère) adjointe"
+Services,Services__c,,Liste de sélection,"Achats, Autres, Communication, DRH, Direction, Direction Générale des Services, IRP, Secrétariat Général, Secrétariat des Conseils, Service des Assemblées"
+Fonction Vtiger,Fonction_Vtiger__c,,Texte(200),
+Service Vtiger,Service_Vtiger__c,,Texte(200),
+Propriétaire de la piste,OwnerId,,"Référence(Utilisateur,Groupe)",
+Origine de la piste,LeadSource,,Liste de sélection,"2LU, AO, AdWords, Elevage, Pardot, Partenaire, Prospection, Site Codexa, Vtiger"
+Nom du partenaire,NomPartenaire__c,,Liste de sélection,"Alinéa, Association et fédération, B2L, CGT Mulhouse, Composya, Conseil CE, Ekipéa, ICMP-RH, Komité, Newcom, Rédacteur, Sarah Dandec, TTP-Amplus, Uni-CE"
+Nombre d’employés,NumberOfEmployees,,"Numéro(8, 0)",
+Sous-secteur d’activité,SousSecteurActivite__c,,Liste de sélection,"Agences de com/marketing, Agroalimentaire, Assurance/mutuelle, Audit & conseil, Autres, Aéronautique, Banques, Bois & papier, Collectivité territoriale, Construction, Cosmétique, Culture (hors musées & châteaux), Distribution en ligne, Défense, Education, Emploi, Energie, Environnement, Gestion de l'eau, Gestion des déchets, Grande distribution (alimentaire), Grands magasins spécialisés (hors alimentaire), Habillement, Hébergement, Hôpitaux/cliniques, Hôtellerie/restauration, IT/Télécommunication, Inducstrie chimique, Industrie automobile, Industrie lourde, Industrie pharmaceutique, Jeux, Justice, Luxe, Mairie, Matériel électrique, Meubles, Ministères, Musées & chateaux, Presse et média, Recherche, Santé (hors hôpitaux et cliniques), Secteur solidaire, Services aux entreprises, Sport, Syndicats, Sécurité, Transport de voyageur, Transport routier/Logistique, Verres & métaux, Voyage"
+Piste non traitée,PisteNonTraitee__c,,Case à cocher,
+Motif piste non traitée,MotifPisteNonTraitee__c,,Liste de sélection,"Autres, Délai, Manque infos prospect, Pic production, Tarifs, Type de document, Zone géographique"
+Commentaire,Commentaire__c,,Zone de texte(255),
+Ne pas recontacter,NePasRecontacter__c,,Case à cocher,
+Type de client,TypeClient__c,,Liste de sélection,"Ancien client, Client existant, Prospect en cours, Prospect fermé perdu, Prospect fermé réouvert, Prospect à travailler"
+Adresse,Address,,Adresse,
+Vos besoins/ Description,Vos_besoins_Description__c,,Zone de texte(255),
+"Je suis ",Je_suis__c,,Liste de sélection,"Un particulier, Une entreprise"
+Elections,Elections__c,,Date,
+Durée du mandat,Duree_du_mandat__c,,"Numéro(3, 0)",
+Durée de l’enregistrement (en minutes),Duree_de_l_enregistrement_en_minutes__c,,"Numéro(18, 0)",
+Format,Format__c,,Liste de sélection,"Intégral, Synthèse"
+Livraison,Livraison__c,,Liste de sélection,"Express (<48 heures), Normal (~ 5 jours)"
+Matin,Matin__c,,Case à cocher,
+Après-midi,ApresMidi__c,,Case à cocher,
+GCLID,GCLID__c,,Zone de texte(255),
+Désinscription d’adresse e-mail,HasOptedOutOfEmail,,Case à cocher,
+Créé par,CreatedById,,Référence(Utilisateur),
+Dernière modification par,LastModifiedById,,Référence(Utilisateur),
+Champs Piste - Liste de sélection,,,,

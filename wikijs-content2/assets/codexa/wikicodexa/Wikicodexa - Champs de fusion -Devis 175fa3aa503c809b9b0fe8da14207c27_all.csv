@@ -1,0 +1,18 @@
+﻿Champ,Champ de fusion,Choix,ID SF,Type de données
+Ville de prestation,"[[!LIEU!]]   ",,Ville_de_prestation__c,Texte(255)
+Nombre de réunions,"[[!NOMBRE-REUNION!]]   ",,NombreReunions__c,"Numéro(3, 0)"
+Nom de l’opportunité,,,Nom_OPP_Perso__c,Texte(150)
+Montant,,,Amount,"Devise(16, 2)"
+N° d’affaire,,,N_d_Affaire__c,Numéro automatique
+Type de réunion,[[!TYPE-REUNION!]],,TypeReunion__c,Texte(50)
+Prestation,"[[!PRESTATION!]]   ","2 options, Audio, Autres, PDN & rédaction, Visio & rédaction",Prestation__c,Liste de sélection
+Propriétaire de l’opportunité,,,OwnerId,Référence(Utilisateur)
+Fréquence,,"Autre, Bimestriel, Mensuelle, Ponctuelle, Trimestrielle",Frequence__c,Liste de sélection
+Type de document,,"Autres, CRI, CRO/CRS, Double doc, Synthèse, Verbatim",Type_de_document__c,Liste de sélection
+Date de première prestation,,,Date_de_premiere_prestation__c,Date
+Date de création,,,DateCreationV2__c,Date
+Nom du compte,"[[!COMPTE!]]   ",,AccountId,Référence(Contact)
+"Langue d’intervention et de rédaction    ","[[!LANGUE!]]   ","Anglais, Français",Langue_d_intervention_r_daction,Liste de sélection
+Délai de livraison,"[[!DELAI-LIVRAISON!]]   ",,Delai_de_livraison__c,Texte(25)
+,,,,
+"Délai minimum   ","[[!DELAI-LIVRAISON-MINI!]]   ",,Delai_minimum__c,Texte(25)
